@@ -1,0 +1,129 @@
+Warning[215] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 112 : Processor superceded by command line.  Verify processor symbol.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 233 : Crossing page boundary -- ensure page bits are set.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 334 : Crossing page boundary -- ensure page bits are set.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 354 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 348 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 360 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 367 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 332 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 333 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 332 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 333 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 332 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 333 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 530 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 534 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 536 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 538 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 539 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 541 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 543 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 544 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 545 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 546 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 724 : Crossing page boundary -- ensure page bits are set.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 725 : Crossing page boundary -- ensure page bits are set.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 872 : Crossing page boundary -- ensure page bits are set.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 942 : Crossing page boundary -- ensure page bits are set.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 558 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 560 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 562 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 563 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 567 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 569 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 367 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 360 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1447 : Crossing page boundary -- ensure page bits are set.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1468 : Crossing page boundary -- ensure page bits are set.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1502 : Crossing page boundary -- ensure page bits are set.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1524 : Crossing page boundary -- ensure page bits are set.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1776 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1778 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1781 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1782 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1784 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1787 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1788 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1790 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1793 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1794 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1795 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1798 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1802 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1803 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1805 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1809 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1810 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1812 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1814 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 1825 : Crossing page boundary -- ensure page bits are set.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 2464 : Crossing page boundary -- ensure page bits are set.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 2784 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 2789 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 2794 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 2821 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 2823 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 2918 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 2923 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 2928 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 2955 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 2957 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 514 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 516 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 517 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 519 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 3326 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 3328 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 3330 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 3332 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 3334 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 3352 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 3353 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 3354 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 580 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 582 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 584 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 586 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 588 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 589 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 591 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 593 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 594 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 597 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 580 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 582 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 584 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 586 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 588 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 589 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 591 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 593 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 594 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 597 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 558 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 560 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 562 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 563 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 567 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 569 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 580 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 582 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 584 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 586 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 588 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 589 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 591 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 593 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 594 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 597 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 3495 : Crossing page boundary -- ensure page bits are set.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 3531 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 3536 : Crossing page boundary -- ensure page bits are set.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 558 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 560 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 562 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 563 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 567 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] D:\EIFFEL\EIFFEL~1.4\SOURCES\LAURENT.INC 569 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 3546 : Crossing page boundary -- ensure page bits are set.
+Message[306] D:\EIFFEL\EIFFEL~1.4\SOURCES\EIFFEL.ASM 3550 : Crossing page boundary -- ensure page bits are set.

@@ -1,0 +1,147 @@
+Corrections et évolutions
+=========================
+
+14/11/2001	PROTOTYPE   
+=====================
+
+ Inversion des signaux Clock/Data de chaque port PS2 pour faciliter le routage de la carte definitive.
+(modification sur le prototype et dans le programme)
+
+18/10/2001	v1.0.0
+==================
+
+Première version opérationelle Clavier et Souris et distribuée au publique.
+	
+06/02/2002	v1.0.1     	
+==================
+
+Mauvais scan-code retourné pour le mouvement roulette bas, le code 0x60 correspond a une touche atari ! 
+La valeur libre 0x5A à donc été choisie.
+
+Découverte que la touche <µ><*> PS/2 n'a pas le le meme scan-code suivant le clavier COMPAQ ou 
+SOFT KEY ! On retournera alors pour ces deux touches le meme code 0x2B atari.
+
+La touche PS/2 0x0E n'etait pas geree, genant pour les claviers Russe, je lui ai affecté le code 
+libre atari 0x05B.
+
+20/02/2002 	v1.0.2     	
+==================
+
+Lors du reset de la machine, la carte Eiffel maintenait la LED CapsLock allumée alors que le 
+clavier du point de vue de l'OS était repassé en minuscule. Désormais je prends en compte la 
+commande RESET Atari <0x80><0x01> pour réinitialiser le mot d'état interne du PIC et éteindre 
+la LED. C'est donc la première version capable d'écouter les commandes de l'Atari.
+
+Un bug grave a été mis à jour lors de multi sélection, ou intervient le clavier et la souris 
+en même temps. Le problème était que des trames claviers et souris pouvaient se propager en 
+même temps et être manqués par le PIC en partie. J'ai donc modifié la détection des paquets, 
+en ajoutant une boucle de surveillance des horloges, détectant ainsi qui commence à transmettre 
+et bloquant immédiatement l'autre périphérique.
+
+La souris à roulette Logitech ne fonctionnait plus tres bien, un decalage de bits sur le premier 
+paquet est observe ! Visiblement le code n'est pas assez rapide et je suis limite a 30 uS.
+
+25/02/2002
+----------
+
+Simplifciation et d'optimisation en vitesse et taille. Les MPSGet et KPSGet sont desormais 
+bloquants (attend le paquet), puisque la boucle MAIN surveille desormais directement les
+horloges sans appeler ces dernieres.(=> Gain en taille de code ) 
+J'ai donc optimiser le code afin de gagner en temps d'execution (et donc diminuer la taille
+du code). 
+Les tests semble tres bons, la Logitech à molette refonctionne correctement, et les cycles 
+d'executions gagnes peuvent faire esperer que d'autres peripheriques qui ont des chronogrammes 
+peut etre à la limite minimale de la periode de 30 uS (D'apres les docs techniques) pourront 
+fonctionner.
+
+13/03/2002	v1.0.3 DEV
+======================
+
+Le bouton central est desormais mappe sur un scan-code, on ne simule plus l'appui gauche et droite.
+
+Support expérimental de la gestion InteliMouse 5 boutons. Cela semble bien fonctionner mais 
+reste a resoudre le probleme des incrementations de +1/+2/-1/-2 qui semble curieux...Si on 
+defile trop vite la roulette verticale, il me semble que l'on augmente le compteur Z de +2 
+au lieu de seulement +1...A priori parce que l'on decodait les paquets, ca prend
+du temps, et pendant ce temps la souris "bufferise".
+
+21/03/2002 
+
+Ajout de l'EEPROM en lecture, les scan-codes souris sont maintenant récupérés dans 
+l'EEPROM data.
+
+25/03/2002 
+----------
+Ajout d'un commande programmation des codes en EEPROM et support d'une commande INQUIRE.
+La commande de programmtion fonctionne. On peut ainsi chosir quel scan code retourner
+suivant les boutons et roulettes de la souris.
+
+26/03/2002
+----------
+
+J'ai profite de l'utilisation de l'EEPROM données pour déplacer totalement la table
+de correspondance des touches claviers en EEPROM. Interressant pour modifier un map
+de touche, mais un peu dangereux, au cas ou l'on enverrait n'importe quoi en programmation.
+
+02/04/2002
+----------
+
+Ajout de la possibilite de programmer le nombre de lignes a scroller sur mouvement molette.
+On programme simplement une répétition du scan-code à envoyer sur les 4 sens possibles.
+Par défaut est égal à UN.
+
+04/04/2002
+----------
+
+Ajout du support de programmation d'un scan-code clavier.
+
+
+25/08/2002	v1.0.4
+======================
+
+Ajout de toutes les commandes IKBD atari sauf les commandes 0x0B 
+(mouse threshold), 0x18 (joystick fire button monitor), et 0x22 
+(controler execute) qui sont reconnus mais non g‚r‚s. Les joysticks, 
+l'horloge et la souris sont donc g‚r‚s dans tous les modes.
+Le Joystick 0 est branch‚ sur le port A du PIC16F876:
+ RA1: Haut
+ RA2: Bas
+ RA3: Gauche
+ RA4: Droite
+ RA5: Tir
+Le Joystick 1 est branch‚ sur le port C du PIC16F876:
+ RC0: Haut
+ RC1: Bas
+ RC2: Gauche
+ RC3: Droite
+ RC4: Tir  
+Ajout gestion de la temperature avec commande de ventilateur sur RC5, 
+la lecture de la temperature se fait via une thermistance a 
+coefficient n‚gatif (CTN) branch‚e sur RA0 (AN0). La lecture se fait 
+via une nouvelle commande IKBD, et la programmation des seuils ainsi 
+que l'‚talonnage via une autre nouvelle commande.
+Ajout t‚l‚chargement en Flash (en pages 2 et 3) via le port serie 
+clavier Atari, les r‚glages en EEPROM sont conserv‚s. En cas de checkum 
+mauvais c'est le progamme d'origine (en page 0) qui est relanc‚. En 
+cas de bug, il est toujours possible de forcer le lancement du 
+programe d'origine en appuyant sur le bouton tir du joystick 1 (RC4) a 
+la mise sous tension.
+Lors de la commande reset IKBD 0x80 de l'Atari, un reset est ‚galement 
+effectu‚ sur la souris et le clavier PS/2. 
+Ajout test parit‚ pour la lecture dans la gestion du clavier et de la  
+souris PS/2. En cas d'erreur sur le clavier et la souris la commande 
+resend est envoy‚e.
+Supression de la r‚p‚tition automatique des touches du clavier PS/2 
+(mode Make/Break), la r‚p‚tition etant assur‚e par le XBIOS de l'Atari.
+Passage des donn‚es … envoyer a l'Atari dans un tampon cirulaire de 
+16 octets afin de laisser le maximum de temps libre au PIC pour g‚rer 
+les trames souris PS/2.
+Gestion possible par alternance de la clavier (5 mS) et de la souris 
+(15 mS), certains claviers et souris ne reagissent pas imm‚diatement 
+au blocage (choix a la compilation). La gestion des erreurs de parit‚ 
+ne permet pas de bloquer toutes les erreurs. 
+ 
+
+
+Laurent Favard
+France, 2001/2002
